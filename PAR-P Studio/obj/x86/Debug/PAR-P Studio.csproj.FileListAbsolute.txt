@@ -1,0 +1,65 @@
+c:\users\jcjet\documents\visual studio 2010\Projects\PAR-P Studio\PAR-P Studio\bin\Debug\PAR-P Studio.exe
+c:\users\jcjet\documents\visual studio 2010\Projects\PAR-P Studio\PAR-P Studio\bin\Debug\PAR-P Studio.pdb
+c:\users\jcjet\documents\visual studio 2010\Projects\PAR-P Studio\PAR-P Studio\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\jcjet\documents\visual studio 2010\Projects\PAR-P Studio\PAR-P Studio\obj\x86\Debug\PAR_P_Studio.MainWindow.resources
+c:\users\jcjet\documents\visual studio 2010\Projects\PAR-P Studio\PAR-P Studio\obj\x86\Debug\PAR_P_Studio.LoginScreen.resources
+c:\users\jcjet\documents\visual studio 2010\Projects\PAR-P Studio\PAR-P Studio\obj\x86\Debug\PAR_P_Studio.Properties.Resources.resources
+c:\users\jcjet\documents\visual studio 2010\Projects\PAR-P Studio\PAR-P Studio\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\jcjet\documents\visual studio 2010\Projects\PAR-P Studio\PAR-P Studio\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\jcjet\documents\visual studio 2010\Projects\PAR-P Studio\PAR-P Studio\obj\x86\Debug\PAR-P Studio.exe
+c:\users\jcjet\documents\visual studio 2010\Projects\PAR-P Studio\PAR-P Studio\obj\x86\Debug\PAR-P Studio.pdb
+C:\Users\JcJet\documents\visual studio 2010\Projects\PAR-P Studio\PAR-P Studio\obj\x86\Debug\PAR_P_Studio.Dialogs.ExportDialog.resources
+C:\Users\JcJet\documents\visual studio 2010\Projects\PAR-P Studio\PAR-P Studio\obj\x86\Debug\PAR_P_Studio.Dialogs.GetUserSeed.resources
+C:\Users\JcJet\documents\visual studio 2010\Projects\PAR-P Studio\PAR-P Studio\obj\x86\Debug\PAR_P_Studio.Dialogs.MessageForm.resources
+C:\Users\JcJet\documents\visual studio 2010\Projects\PAR-P Studio\PAR-P Studio\obj\x86\Debug\PAR_P_Studio.Dialogs.DidYouKnow.resources
+C:\Users\JcJet\documents\visual studio 2010\Projects\PAR-P Studio\PAR-P Studio\obj\x86\Debug\PAR_P_Studio.Dialogs.ThemeNameRequest.resources
+C:\Users\JcJet\documents\visual studio 2010\Projects\PAR-P Studio\PAR-P Studio\obj\x86\Debug\PAR_P_Studio.Investments.invForms.IndexEditor.resources
+C:\Users\JcJet\documents\visual studio 2010\Projects\PAR-P Studio\PAR-P Studio\obj\x86\Debug\PAR_P_Studio.Investments.invForms.InvestmentsForm.resources
+C:\Users\JcJet\documents\visual studio 2010\Projects\PAR-P Studio\PAR-P Studio\obj\x86\Debug\PAR_P_Studio.Investments.invForms.TraderEditor.resources
+C:\Users\JcJet\documents\visual studio 2010\Projects\PAR-P Studio\PAR-P Studio\obj\x86\Debug\PAR_P_Studio.ProjectForms.AboutForm.resources
+C:\Users\JcJet\documents\visual studio 2010\Projects\PAR-P Studio\PAR-P Studio\obj\x86\Debug\PAR_P_Studio.ProjectForms.DeckComparer.resources
+C:\Users\JcJet\documents\visual studio 2010\Projects\PAR-P Studio\PAR-P Studio\obj\x86\Debug\PAR_P_Studio.DeckView.resources
+C:\Users\JcJet\documents\visual studio 2010\Projects\PAR-P Studio\PAR-P Studio\obj\x86\Debug\PAR_P_Studio.AskQuestionForm.resources
+C:\Users\JcJet\documents\visual studio 2010\Projects\PAR-P Studio\PAR-P Studio\obj\x86\Debug\PAR_P_Studio.Dialogs.CardCountRequest.resources
+C:\Users\JcJet\documents\visual studio 2010\Projects\PAR-P Studio\PAR-P Studio\obj\x86\Debug\PAR_P_Studio.ProjectForms.EventLog.resources
+C:\Users\JcJet\documents\visual studio 2010\Projects\PAR-P Studio\PAR-P Studio\obj\x86\Debug\PAR_P_Studio.ProjectForms.KnowlegeBase.resources
+C:\Users\JcJet\documents\visual studio 2010\Projects\PAR-P Studio\PAR-P Studio\obj\x86\Debug\PAR_P_Studio.LargeImage.resources
+C:\Users\JcJet\documents\visual studio 2010\Projects\PAR-P Studio\PAR-P Studio\obj\x86\Debug\PAR_P_Studio.LayoutForm.resources
+C:\Users\JcJet\documents\visual studio 2010\Projects\PAR-P Studio\PAR-P Studio\obj\x86\Debug\PAR_P_Studio.LayoutResult.resources
+C:\Users\JcJet\documents\visual studio 2010\Projects\PAR-P Studio\PAR-P Studio\obj\x86\Debug\PAR_P_Studio.Notebook.resources
+C:\Users\JcJet\documents\visual studio 2010\Projects\PAR-P Studio\PAR-P Studio\obj\x86\Debug\PAR_P_Studio.ProjectForms.ShuffleForm.resources
+C:\Users\JcJet\documents\visual studio 2010\Projects\PAR-P Studio\PAR-P Studio\obj\x86\Debug\PAR_P_Studio.ProjectForms.UserInfo.resources
+C:\Users\JcJet\documents\visual studio 2010\Projects\PAR-P Studio\PAR-P Studio\obj\x86\Debug\PAR_P_Studio.TarotForm.resources
+C:\Users\JcJet\documents\visual studio 2010\Projects\PAR-P Studio\PAR-P Studio\obj\x86\Debug\PAR_P_Studio.TypeDesigner.resources
+C:\Users\Андреев\Documents\Visual Studio 2010\Projects\PAR-P Studio\PAR-P Studio\obj\x86\Debug\PAR-P Studio.exe
+C:\Users\Андреев\Documents\Visual Studio 2010\Projects\PAR-P Studio\PAR-P Studio\obj\x86\Debug\PAR-P Studio.pdb
+C:\Users\Андреев\Documents\Visual Studio 2010\Projects\PAR-P Studio\PAR-P Studio\bin\Debug\PAR-P Studio.exe
+C:\Users\Андреев\Documents\Visual Studio 2010\Projects\PAR-P Studio\PAR-P Studio\bin\Debug\PAR-P Studio.pdb
+C:\Users\Андреев\Documents\Visual Studio 2010\Projects\PAR-P Studio\PAR-P Studio\obj\x86\Debug\PAR_P_Studio.Dialogs.ExportDialog.resources
+C:\Users\Андреев\Documents\Visual Studio 2010\Projects\PAR-P Studio\PAR-P Studio\obj\x86\Debug\PAR_P_Studio.Dialogs.GetUserSeed.resources
+C:\Users\Андреев\Documents\Visual Studio 2010\Projects\PAR-P Studio\PAR-P Studio\obj\x86\Debug\PAR_P_Studio.Dialogs.MessageForm.resources
+C:\Users\Андреев\Documents\Visual Studio 2010\Projects\PAR-P Studio\PAR-P Studio\obj\x86\Debug\PAR_P_Studio.Dialogs.DidYouKnow.resources
+C:\Users\Андреев\Documents\Visual Studio 2010\Projects\PAR-P Studio\PAR-P Studio\obj\x86\Debug\PAR_P_Studio.Dialogs.ThemeNameRequest.resources
+C:\Users\Андреев\Documents\Visual Studio 2010\Projects\PAR-P Studio\PAR-P Studio\obj\x86\Debug\PAR_P_Studio.Investments.invForms.IndexEditor.resources
+C:\Users\Андреев\Documents\Visual Studio 2010\Projects\PAR-P Studio\PAR-P Studio\obj\x86\Debug\PAR_P_Studio.Investments.invForms.InvestmentsForm.resources
+C:\Users\Андреев\Documents\Visual Studio 2010\Projects\PAR-P Studio\PAR-P Studio\obj\x86\Debug\PAR_P_Studio.Investments.invForms.TraderEditor.resources
+C:\Users\Андреев\Documents\Visual Studio 2010\Projects\PAR-P Studio\PAR-P Studio\obj\x86\Debug\PAR_P_Studio.ProjectForms.AboutForm.resources
+C:\Users\Андреев\Documents\Visual Studio 2010\Projects\PAR-P Studio\PAR-P Studio\obj\x86\Debug\PAR_P_Studio.ProjectForms.DeckComparer.resources
+C:\Users\Андреев\Documents\Visual Studio 2010\Projects\PAR-P Studio\PAR-P Studio\obj\x86\Debug\PAR_P_Studio.DeckView.resources
+C:\Users\Андреев\Documents\Visual Studio 2010\Projects\PAR-P Studio\PAR-P Studio\obj\x86\Debug\PAR_P_Studio.AskQuestionForm.resources
+C:\Users\Андреев\Documents\Visual Studio 2010\Projects\PAR-P Studio\PAR-P Studio\obj\x86\Debug\PAR_P_Studio.Dialogs.CardCountRequest.resources
+C:\Users\Андреев\Documents\Visual Studio 2010\Projects\PAR-P Studio\PAR-P Studio\obj\x86\Debug\PAR_P_Studio.ProjectForms.EventLog.resources
+C:\Users\Андреев\Documents\Visual Studio 2010\Projects\PAR-P Studio\PAR-P Studio\obj\x86\Debug\PAR_P_Studio.ProjectForms.KnowlegeBase.resources
+C:\Users\Андреев\Documents\Visual Studio 2010\Projects\PAR-P Studio\PAR-P Studio\obj\x86\Debug\PAR_P_Studio.LargeImage.resources
+C:\Users\Андреев\Documents\Visual Studio 2010\Projects\PAR-P Studio\PAR-P Studio\obj\x86\Debug\PAR_P_Studio.LayoutForm.resources
+C:\Users\Андреев\Documents\Visual Studio 2010\Projects\PAR-P Studio\PAR-P Studio\obj\x86\Debug\PAR_P_Studio.LayoutResult.resources
+C:\Users\Андреев\Documents\Visual Studio 2010\Projects\PAR-P Studio\PAR-P Studio\obj\x86\Debug\PAR_P_Studio.MainWindow.resources
+C:\Users\Андреев\Documents\Visual Studio 2010\Projects\PAR-P Studio\PAR-P Studio\obj\x86\Debug\PAR_P_Studio.LoginScreen.resources
+C:\Users\Андреев\Documents\Visual Studio 2010\Projects\PAR-P Studio\PAR-P Studio\obj\x86\Debug\PAR_P_Studio.Notebook.resources
+C:\Users\Андреев\Documents\Visual Studio 2010\Projects\PAR-P Studio\PAR-P Studio\obj\x86\Debug\PAR_P_Studio.ProjectForms.ShuffleForm.resources
+C:\Users\Андреев\Documents\Visual Studio 2010\Projects\PAR-P Studio\PAR-P Studio\obj\x86\Debug\PAR_P_Studio.ProjectForms.UserInfo.resources
+C:\Users\Андреев\Documents\Visual Studio 2010\Projects\PAR-P Studio\PAR-P Studio\obj\x86\Debug\PAR_P_Studio.Properties.Resources.resources
+C:\Users\Андреев\Documents\Visual Studio 2010\Projects\PAR-P Studio\PAR-P Studio\obj\x86\Debug\PAR_P_Studio.TarotForm.resources
+C:\Users\Андреев\Documents\Visual Studio 2010\Projects\PAR-P Studio\PAR-P Studio\obj\x86\Debug\PAR_P_Studio.TypeDesigner.resources
+C:\Users\Андреев\Documents\Visual Studio 2010\Projects\PAR-P Studio\PAR-P Studio\obj\x86\Debug\PAR-P Studio.csproj.GenerateResource.Cache
+C:\Users\Андреев\Documents\Visual Studio 2010\Projects\PAR-P Studio\PAR-P Studio\obj\x86\Debug\PAR-P Studio.csprojResolveAssemblyReference.cache

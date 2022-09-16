@@ -1,0 +1,30 @@
+C:\Users\JcJet\documents\visual studio 2010\Projects\PAR-P Studio\PAR-P Studio\bin\Release\PAR-P Studio.exe
+C:\Users\JcJet\documents\visual studio 2010\Projects\PAR-P Studio\PAR-P Studio\bin\Release\PAR-P Studio.pdb
+C:\Users\JcJet\documents\visual studio 2010\Projects\PAR-P Studio\PAR-P Studio\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\JcJet\documents\visual studio 2010\Projects\PAR-P Studio\PAR-P Studio\obj\x86\Release\PAR_P_Studio.Dialogs.ExportDialog.resources
+C:\Users\JcJet\documents\visual studio 2010\Projects\PAR-P Studio\PAR-P Studio\obj\x86\Release\PAR_P_Studio.Dialogs.GetUserSeed.resources
+C:\Users\JcJet\documents\visual studio 2010\Projects\PAR-P Studio\PAR-P Studio\obj\x86\Release\PAR_P_Studio.Dialogs.MessageForm.resources
+C:\Users\JcJet\documents\visual studio 2010\Projects\PAR-P Studio\PAR-P Studio\obj\x86\Release\PAR_P_Studio.ProjectForms.AboutForm.resources
+C:\Users\JcJet\documents\visual studio 2010\Projects\PAR-P Studio\PAR-P Studio\obj\x86\Release\PAR_P_Studio.ProjectForms.DeckComparer.resources
+C:\Users\JcJet\documents\visual studio 2010\Projects\PAR-P Studio\PAR-P Studio\obj\x86\Release\PAR_P_Studio.DeckView.resources
+C:\Users\JcJet\documents\visual studio 2010\Projects\PAR-P Studio\PAR-P Studio\obj\x86\Release\PAR_P_Studio.AskQuestionForm.resources
+C:\Users\JcJet\documents\visual studio 2010\Projects\PAR-P Studio\PAR-P Studio\obj\x86\Release\PAR_P_Studio.Dialogs.CardCountRequest.resources
+C:\Users\JcJet\documents\visual studio 2010\Projects\PAR-P Studio\PAR-P Studio\obj\x86\Release\PAR_P_Studio.LargeImage.resources
+C:\Users\JcJet\documents\visual studio 2010\Projects\PAR-P Studio\PAR-P Studio\obj\x86\Release\PAR_P_Studio.LayoutForm.resources
+C:\Users\JcJet\documents\visual studio 2010\Projects\PAR-P Studio\PAR-P Studio\obj\x86\Release\PAR_P_Studio.LayoutResult.resources
+C:\Users\JcJet\documents\visual studio 2010\Projects\PAR-P Studio\PAR-P Studio\obj\x86\Release\PAR_P_Studio.MainWindow.resources
+C:\Users\JcJet\documents\visual studio 2010\Projects\PAR-P Studio\PAR-P Studio\obj\x86\Release\PAR_P_Studio.LoginScreen.resources
+C:\Users\JcJet\documents\visual studio 2010\Projects\PAR-P Studio\PAR-P Studio\obj\x86\Release\PAR_P_Studio.Notebook.resources
+C:\Users\JcJet\documents\visual studio 2010\Projects\PAR-P Studio\PAR-P Studio\obj\x86\Release\PAR_P_Studio.ProjectForms.ShuffleForm.resources
+C:\Users\JcJet\documents\visual studio 2010\Projects\PAR-P Studio\PAR-P Studio\obj\x86\Release\PAR_P_Studio.Properties.Resources.resources
+C:\Users\JcJet\documents\visual studio 2010\Projects\PAR-P Studio\PAR-P Studio\obj\x86\Release\PAR_P_Studio.TarotForm.resources
+C:\Users\JcJet\documents\visual studio 2010\Projects\PAR-P Studio\PAR-P Studio\obj\x86\Release\PAR_P_Studio.TypeDesigner.resources
+C:\Users\JcJet\documents\visual studio 2010\Projects\PAR-P Studio\PAR-P Studio\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Users\JcJet\documents\visual studio 2010\Projects\PAR-P Studio\PAR-P Studio\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Users\JcJet\documents\visual studio 2010\Projects\PAR-P Studio\PAR-P Studio\obj\x86\Release\PAR-P Studio.exe
+C:\Users\JcJet\documents\visual studio 2010\Projects\PAR-P Studio\PAR-P Studio\obj\x86\Release\PAR-P Studio.pdb
+C:\Users\JcJet\documents\visual studio 2010\Projects\PAR-P Studio\PAR-P Studio\obj\x86\Release\PAR_P_Studio.Dialogs.DidYouKnow.resources
+C:\Users\JcJet\documents\visual studio 2010\Projects\PAR-P Studio\PAR-P Studio\obj\x86\Release\PAR_P_Studio.Dialogs.ThemeNameRequest.resources
+C:\Users\JcJet\documents\visual studio 2010\Projects\PAR-P Studio\PAR-P Studio\obj\x86\Release\PAR_P_Studio.ProjectForms.EventLog.resources
+C:\Users\JcJet\documents\visual studio 2010\Projects\PAR-P Studio\PAR-P Studio\obj\x86\Release\PAR_P_Studio.ProjectForms.KnowlegeBase.resources
+C:\Users\JcJet\documents\visual studio 2010\Projects\PAR-P Studio\PAR-P Studio\obj\x86\Release\PAR_P_Studio.ProjectForms.UserInfo.resources

@@ -1,0 +1,485 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<activityRootModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="5b96a4aa-cb20-4340-b326-4af60adc5ba1" name="Activity1" linkedPackageId="e4e3e8bc-7c54-4bb1-aa12-23aa01978b83" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner">
+  <packagedElements>
+    <activityRootModelHasActivity>
+      <activity Id="3ae760b2-6de8-42ca-a658-08fdbc140c70" name="Activity1" isAbstract="false" isLeaf="false" isActiveClass="false" isReentrant="false" isReadOnly="false" isSingleExecution="false">
+        <elementDefinition Id="a4ed9eaa-3025-4ac9-8e77-0dd797560e23" />
+        <nodes>
+          <initialNode Id="0b666702-de82-4c9b-9fbf-3c835820cd0c" name="Initial1" isLeaf="false">
+            <elementDefinition Id="beda4882-ad06-445d-a882-03d8abe44750" />
+            <flowNodeTargets>
+              <controlFlow Id="2a5984f7-9767-4a8a-8fc3-f39f10d356cd" isLeaf="false">
+                <decisionNodeMoniker Id="2effacea-a87f-434e-b8a4-b03abb2eec43" LastKnownName="Decision21" />
+                <elementDefinition Id="f0b3ddcc-15f8-4253-a727-769510e8da84" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <decisionNode Id="72080580-ea9f-43fd-82c5-820cb0a83107" name="Decision1" isLeaf="false">
+            <elementDefinition Id="dc133533-f63b-443d-a716-7fbe7b82b04e" />
+            <flowNodeTargets>
+              <controlFlow Id="e6ef03d6-2a0c-471e-9c77-910e459d013e" guard="С сохранением данных" isLeaf="false">
+                <decisionNodeMoniker Id="e13b3061-1425-4239-85c4-90b82e87413f" LastKnownName="Decision2" />
+                <elementDefinition Id="cc1093cd-330f-4fa1-a2cc-289c9428f92e" />
+              </controlFlow>
+              <controlFlow Id="c2a4a6af-38e9-48dc-85f1-1b640d05a1f0" guard="Без сохранения данных" isLeaf="false">
+                <opaqueActionMoniker Id="19b6b933-9ecc-4a37-83cf-7617bb6583f6" LastKnownName="Вход в главное меню" />
+                <elementDefinition Id="c3968996-bcec-4121-9c15-e25faeb7a11b" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <decisionNode Id="e13b3061-1425-4239-85c4-90b82e87413f" name="Decision2" isLeaf="false">
+            <elementDefinition Id="143cce26-615c-4ba2-96f8-4fd2a51cad85" />
+            <flowNodeTargets>
+              <controlFlow Id="33dd9034-7085-4ef7-ab57-f3ccf90e4a92" guard="Профиль сущесвует" isLeaf="false">
+                <opaqueActionMoniker Id="62ca6a00-39c9-4dd5-bf7f-390927eed19b" LastKnownName="Выбор профиля" />
+                <elementDefinition Id="859dcd44-7a78-49f6-8c6a-83b76893d12a" />
+              </controlFlow>
+              <controlFlow Id="c5542917-e0cc-47d3-9f94-7f9c41bebc6a" guard="Профиля нет" isLeaf="false">
+                <opaqueActionMoniker Id="90cd0f24-308c-4556-bad6-d300694661f1" LastKnownName="Создание профиля" />
+                <elementDefinition Id="3327f344-46fc-4e79-81cd-90f9e2512656" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction Id="62ca6a00-39c9-4dd5-bf7f-390927eed19b" name="Выбор профиля" isLeaf="false">
+            <elementDefinition Id="896b75fe-bfb0-4203-981d-069f6d60bbd9" />
+            <flowNodeTargets>
+              <controlFlow Id="67dc2081-1b69-4eea-880d-1746bf8478e8" isLeaf="false">
+                <opaqueActionMoniker Id="19b6b933-9ecc-4a37-83cf-7617bb6583f6" LastKnownName="Вход в главное меню" />
+                <elementDefinition Id="3b56dbe1-2dc4-4fb8-bba5-82df619ad31a" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="90cd0f24-308c-4556-bad6-d300694661f1" name="Создание профиля" isLeaf="false">
+            <elementDefinition Id="95de1bab-255e-4a82-9835-51524a904f48" />
+            <flowNodeTargets>
+              <controlFlow Id="900b3e19-894a-4a91-b59b-21bca7cbb073" isLeaf="false">
+                <opaqueActionMoniker Id="62ca6a00-39c9-4dd5-bf7f-390927eed19b" LastKnownName="Выбор профиля" />
+                <elementDefinition Id="5f7079af-cbe1-4548-9fef-f64da85d8899" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="19b6b933-9ecc-4a37-83cf-7617bb6583f6" name="Вход в главное меню" isLeaf="false">
+            <elementDefinition Id="02ff8a96-17b5-4a61-acdc-1de29ed18800" />
+            <flowNodeTargets>
+              <controlFlow Id="4b89d52f-6c57-4429-9ca8-bf8541633d4e" isLeaf="false">
+                <decisionNodeMoniker Id="ed33bcc7-f37f-445c-9388-0ff3cccedc8e" LastKnownName="Decision3" />
+                <elementDefinition Id="f55f4ab0-9e56-439b-8e62-c9778b9a04ed" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode Id="ed33bcc7-f37f-445c-9388-0ff3cccedc8e" name="Decision3" isLeaf="false">
+            <elementDefinition Id="8cbcd9f2-9972-49e0-9714-cb910ad97861" />
+            <flowNodeTargets>
+              <controlFlow Id="94cd8168-828b-4dd3-81c6-f992c8f8165a" guard="Нужно изменить оснвные настройки" isLeaf="false">
+                <opaqueActionMoniker Id="af6f9d7f-2264-44f2-bf46-eda60eef2d1d" LastKnownName="Настройка внешнего вида и профиля" />
+                <elementDefinition Id="537b83d4-cee4-4a93-80f7-d1d7a9c06bd1" />
+              </controlFlow>
+              <controlFlow Id="79e483d6-2ea5-4d2b-8403-fce723370451" guard="Не нужно изменять настройки" isLeaf="false">
+                <decisionNodeMoniker Id="8f1c0900-0bbc-463d-b583-e6f79ba694d8" LastKnownName="Decision4" />
+                <elementDefinition Id="27a5f95f-d207-4c07-b27b-3a0988782ada" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction Id="df7ddbcf-d2fc-47eb-b6df-f7acbaca8e00" name="Запуск редактора Таро" isLeaf="false">
+            <elementDefinition Id="ddae630c-bc00-44f9-872b-8262db30de90" />
+            <flowNodeTargets>
+              <controlFlow Id="b78f3e4a-5403-4dc0-9ffe-6f8a8c34f550" isLeaf="false">
+                <decisionNodeMoniker Id="808b4c6a-219e-4472-904c-fe75e69da8b2" LastKnownName="Decision7" />
+                <elementDefinition Id="f14b6086-a300-4e77-a274-cf57a542a60b" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="af6f9d7f-2264-44f2-bf46-eda60eef2d1d" name="Настройка внешнего вида и профиля" isLeaf="false">
+            <elementDefinition Id="ee2995dc-b9b9-493b-897c-3dd955d7a449" />
+          </opaqueAction>
+          <decisionNode Id="8f1c0900-0bbc-463d-b583-e6f79ba694d8" name="Decision4" isLeaf="false">
+            <elementDefinition Id="8c297703-1f3c-44cd-9610-5c3c65a3d4e9" />
+            <flowNodeTargets>
+              <controlFlow Id="60e59940-8efa-48d5-9685-3f80b587147a" guard="Нужно просмотреть события" isLeaf="false">
+                <opaqueActionMoniker Id="d52aa849-5796-4374-8fc2-0f2849625539" LastKnownName="Открытие журнала событий" />
+                <elementDefinition Id="43b53547-a044-4075-beb7-21a04926b41d" />
+              </controlFlow>
+              <controlFlow Id="4e9bce47-ec44-462b-b7c3-77e767d83708" guard="Не нужно просматривать события" isLeaf="false">
+                <decisionNodeMoniker Id="a25d8955-61ce-4649-988c-c99dd80fb6d9" LastKnownName="Decision5" />
+                <elementDefinition Id="b4abb04f-95be-45d7-a02d-bb6a041657d6" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <decisionNode Id="a25d8955-61ce-4649-988c-c99dd80fb6d9" name="Decision5" isLeaf="false">
+            <elementDefinition Id="f5636bff-284f-4610-ae92-2a0968953cad" />
+            <flowNodeTargets>
+              <controlFlow Id="5ca86a33-f262-48bc-af1f-ca5097829926" guard="Нужно просмотреть статистику" isLeaf="false">
+                <opaqueActionMoniker Id="0e34fadb-edc7-4dcb-9470-947858e20bc2" LastKnownName="Просмотр статистики" />
+                <elementDefinition Id="831f6996-6473-44d8-a3a6-b125a4f3f9f5" />
+              </controlFlow>
+              <controlFlow Id="48e30548-dc51-4c9c-aed1-534ce53b77bb" guard="Не нужно просматривать статистику" isLeaf="false">
+                <decisionNodeMoniker Id="18d0116e-f3ee-43d4-b277-6d274e5364b7" LastKnownName="Decision6" />
+                <elementDefinition Id="48a811a4-f1ed-4dbd-a73f-57ed21849acf" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction Id="d52aa849-5796-4374-8fc2-0f2849625539" name="Открытие журнала событий" isLeaf="false">
+            <elementDefinition Id="f0250f4d-e3eb-460a-8fff-cc1e9cb83750" />
+          </opaqueAction>
+          <opaqueAction Id="6e49c08f-70f8-4397-ab5e-a6f10a5110b3" name="Вызов справки" isLeaf="false">
+            <elementDefinition Id="5cd4f987-3175-4a4b-a139-69f4ca908d89" />
+          </opaqueAction>
+          <opaqueAction Id="0e34fadb-edc7-4dcb-9470-947858e20bc2" name="Просмотр статистики" isLeaf="false">
+            <elementDefinition Id="9b612de5-6cb8-4f7c-936a-c66cb6becac6" />
+          </opaqueAction>
+          <decisionNode Id="18d0116e-f3ee-43d4-b277-6d274e5364b7" name="Decision6" isLeaf="false">
+            <elementDefinition Id="70801029-ce89-4e63-8d9c-e149d577b612" />
+            <flowNodeTargets>
+              <controlFlow Id="f5373d06-6ec7-4e0c-8f9f-129a10392c3c" guard="Нужно просмотреть справку" isLeaf="false">
+                <opaqueActionMoniker Id="6e49c08f-70f8-4397-ab5e-a6f10a5110b3" LastKnownName="Вызов справки" />
+                <elementDefinition Id="898b8b78-ea50-43d1-9873-f1b37ca6a1b0" />
+              </controlFlow>
+              <controlFlow Id="4ff3dc54-75dd-4737-9f7f-eaceffab2960" guard="Справка не требуется" isLeaf="false">
+                <decisionNodeMoniker Id="cc7bcf1c-aa7b-47a2-b317-96ebeca5bfb5" LastKnownName="Decision20" />
+                <elementDefinition Id="33602b31-c115-46fd-85bd-158b36e3c3dd" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <decisionNode Id="808b4c6a-219e-4472-904c-fe75e69da8b2" name="Decision7" isLeaf="false">
+            <elementDefinition Id="6d776cc5-c666-4c58-946d-2e8560bf7ec4" />
+            <flowNodeTargets>
+              <controlFlow Id="34e09b12-ff4c-49fa-bd3d-2366e3697b80" guard="Желаемой колоды нет" isLeaf="false">
+                <opaqueActionMoniker Id="b47b113e-249d-4f56-9fce-a9d03c77ecb2" LastKnownName="Создание новой колоды" />
+                <elementDefinition Id="3a52ccb2-af5c-47d3-804c-f7456b42a446" />
+              </controlFlow>
+              <controlFlow Id="68c88c3e-0cea-4709-bc0a-87703a01e02b" guard="Желаемая колода выбрана" isLeaf="false">
+                <decisionNodeMoniker Id="489fec74-adc9-408b-8b41-015ebf7b9f62" LastKnownName="Decision8" />
+                <elementDefinition Id="d9a611b5-623a-402f-a04c-2e206af9cd47" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <decisionNode Id="489fec74-adc9-408b-8b41-015ebf7b9f62" name="Decision8" isLeaf="false">
+            <elementDefinition Id="2bc59ea8-1728-49d6-a9fb-b9982ed25082" />
+            <flowNodeTargets>
+              <controlFlow Id="66444a1c-3c35-462e-8586-e897a5c19016" guard="Желаемого расклада нет" isLeaf="false">
+                <opaqueActionMoniker Id="0b7ac22a-6c37-4fb1-9ef5-a05bdadb5b20" LastKnownName="Создание нового  шаблона расклада" />
+                <elementDefinition Id="04012cdd-b971-4f5c-af9f-8da0405da767" />
+              </controlFlow>
+              <controlFlow Id="3cddd109-c3a1-46f9-bb4d-0c56b34ad449" guard="Желаемый расклад выбран" isLeaf="false">
+                <decisionNodeMoniker Id="d5745af5-8dd7-4b38-9ceb-995e71fe0a30" LastKnownName="Decision9" />
+                <elementDefinition Id="f9b0b541-1973-4b76-abe8-dbc530c691b9" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <decisionNode Id="d5745af5-8dd7-4b38-9ceb-995e71fe0a30" name="Decision9" isLeaf="false">
+            <elementDefinition Id="486e3a02-5b2d-4d14-84b1-b8e62e5f07d0" />
+            <flowNodeTargets>
+              <controlFlow Id="e5190f2f-26d8-4448-85b9-7889555de48d" guard="Нужно изменить настройки расклада" isLeaf="false">
+                <opaqueActionMoniker Id="a9acdf82-e34c-4da9-a20a-c38eb5092b41" LastKnownName="Изменение настроек расклада" />
+                <elementDefinition Id="63bb2509-af0b-4b00-89e0-17d5d68c5019" />
+              </controlFlow>
+              <controlFlow Id="29652b64-436b-41ab-bfe1-acd18e474319" guard="Способ расклада настроен" isLeaf="false">
+                <decisionNodeMoniker Id="b773f6cd-485c-42b5-a6b0-1ab1c60a8d71" LastKnownName="Decision10" />
+                <elementDefinition Id="5b7c04d4-ffef-42fd-b96d-c3d9729b1074" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <decisionNode Id="b773f6cd-485c-42b5-a6b0-1ab1c60a8d71" name="Decision10" isLeaf="false">
+            <elementDefinition Id="87da610c-938a-4acf-9474-85b95db10d77" />
+            <flowNodeTargets>
+              <controlFlow Id="a1efccbb-b05f-44e1-8cfe-00c74eb53b7a" guard="Выбран ручной режим" isLeaf="false">
+                <opaqueActionMoniker Id="a8c3e3d5-38d1-447a-87f6-a33c9b34eca3" LastKnownName="Перемешивание текущей колоды вручную" />
+                <elementDefinition Id="89927812-9a03-4f5e-9086-992b411ce253" />
+              </controlFlow>
+              <controlFlow Id="4bbe177e-d077-4df6-8bef-32d25a945f12" guard="Выбран автоматический режим" isLeaf="false">
+                <decisionNodeMoniker Id="a39aefcf-f9ed-4f4d-a933-fe4774b8254d" LastKnownName="Decision11" />
+                <elementDefinition Id="95fac84b-60dd-401d-810f-fc1712139a91" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <decisionNode Id="a39aefcf-f9ed-4f4d-a933-fe4774b8254d" name="Decision11" isLeaf="false">
+            <elementDefinition Id="6530af35-0924-4671-a1cd-23bee04f5021" />
+            <flowNodeTargets>
+              <controlFlow Id="48f3753c-d63c-46fe-81e7-8ecf2b8cf5c6" guard="Нужно изучить колоду" isLeaf="false">
+                <opaqueActionMoniker Id="8e88afec-ac19-46b9-81fd-5aeac406c71c" LastKnownName="Открытие просмотрщика колоды" />
+                <elementDefinition Id="368ea832-75e3-4a77-84a8-4d886ed9566b" />
+              </controlFlow>
+              <controlFlow Id="86d84785-1079-4dad-ae63-e731152c20be" guard="Колоду изучать не нужно" isLeaf="false">
+                <decisionNodeMoniker Id="77d28f93-dd88-41dd-99b7-5510c4e90bce" LastKnownName="Decision12" />
+                <elementDefinition Id="1badc374-f4c1-45ef-adf8-99e9f163a476" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction Id="b47b113e-249d-4f56-9fce-a9d03c77ecb2" name="Создание новой колоды" isLeaf="false">
+            <elementDefinition Id="3bd69f71-2558-4ec7-ab14-c45915352554" />
+          </opaqueAction>
+          <opaqueAction Id="0b7ac22a-6c37-4fb1-9ef5-a05bdadb5b20" name="Создание нового  шаблона расклада" isLeaf="false">
+            <elementDefinition Id="a287382a-9b83-4e51-97e2-5cce43eef9ed" />
+          </opaqueAction>
+          <opaqueAction Id="a9acdf82-e34c-4da9-a20a-c38eb5092b41" name="Изменение настроек расклада" isLeaf="false">
+            <elementDefinition Id="cfb69958-5979-4949-834e-43ed0a1c8a47" />
+          </opaqueAction>
+          <opaqueAction Id="a8c3e3d5-38d1-447a-87f6-a33c9b34eca3" name="Перемешивание текущей колоды вручную" isLeaf="false">
+            <elementDefinition Id="00c7a798-29ac-4498-9f32-e056fb9ed3df" />
+          </opaqueAction>
+          <opaqueAction Id="8e88afec-ac19-46b9-81fd-5aeac406c71c" name="Открытие просмотрщика колоды" isLeaf="false">
+            <elementDefinition Id="5d89dd5d-1f1d-414e-949a-fc1bb3a72dba" />
+          </opaqueAction>
+          <decisionNode Id="77d28f93-dd88-41dd-99b7-5510c4e90bce" name="Decision12" isLeaf="false">
+            <elementDefinition Id="1a6e6730-9b7e-4489-a12d-165578e3e6f5" />
+            <flowNodeTargets>
+              <controlFlow Id="6ab29575-fb2a-46d9-8844-b65c1522bee2" guard="Нужно сравнить колоды" isLeaf="false">
+                <opaqueActionMoniker Id="115ab8ed-9b97-444b-ace1-33c967d80795" LastKnownName="Открытие сравнения колод" />
+                <elementDefinition Id="f23b14db-d206-4b4e-a2f2-ac7f6ad54d94" />
+              </controlFlow>
+              <controlFlow Id="a0b1f696-0b53-4462-a4aa-26a0bb970935" guard="Колоды сравнивать не нужно" isLeaf="false">
+                <decisionNodeMoniker Id="c9bbcdd9-0a86-468c-94a5-7ca1ee274d18" LastKnownName="Decision19" />
+                <elementDefinition Id="b3129843-a678-41a1-a7e3-2e2815d16001" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction Id="115ab8ed-9b97-444b-ace1-33c967d80795" name="Открытие сравнения колод" isLeaf="false">
+            <elementDefinition Id="2b3d5dda-70b3-4161-b9c2-0b8901168c3a" />
+          </opaqueAction>
+          <opaqueAction Id="e1f1251d-ec0e-43dc-8b3f-05d249723fbd" name="Начало расклада" isLeaf="false">
+            <elementDefinition Id="f3fd20f0-ec31-4165-ad33-dde4c23ea4e8" />
+            <flowNodeTargets>
+              <controlFlow Id="788c8385-d5ec-4354-b06c-f0cebaff4fcc" isLeaf="false">
+                <decisionNodeMoniker Id="665adc4e-a83d-4a92-92bf-6aa53b05a925" LastKnownName="Decision13" />
+                <elementDefinition Id="d462bd2f-2387-406e-a13e-4bdea94804c5" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode Id="665adc4e-a83d-4a92-92bf-6aa53b05a925" name="Decision13" isLeaf="false">
+            <elementDefinition Id="e1fecdd3-57cf-489f-bafa-5689b9d481c5" />
+            <flowNodeTargets>
+              <controlFlow Id="00104f87-20be-4e26-b3fd-481fe04afba9" guard="Активна опция &quot;вопрос для расклада&quot;" isLeaf="false">
+                <opaqueActionMoniker Id="2be73212-45f2-4114-8b2c-20d9c6c5c014" LastKnownName="Ввод темы расклада" />
+                <elementDefinition Id="52757495-dc8b-4768-a7e7-68917893ba4b" />
+              </controlFlow>
+              <controlFlow Id="6528b190-82c8-47a9-8c64-60400920c032" guard="Опция не активна" isLeaf="false">
+                <mergeNodeMoniker Id="6b8edab8-8b74-4d0f-8166-e7015aac5e5b" LastKnownName="Merge1" />
+                <elementDefinition Id="295de90b-ee8d-4f92-aaf9-d29a56e93d15" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <decisionNode Id="8cd0f42d-5229-4cfb-be59-90cb285db3a1" name="Decision14" isLeaf="false">
+            <elementDefinition Id="12a070dd-64c4-4d0f-a322-ce8f63ff115f" />
+            <flowNodeTargets>
+              <controlFlow Id="60f18d10-8989-4947-9a1d-c69ae425b330" guard="Опция не активна" isLeaf="false">
+                <mergeNodeMoniker Id="5dc4a220-7b6a-4f14-b16b-0153b9b0a98b" LastKnownName="Merge2" />
+                <elementDefinition Id="1ee417a6-6852-4e20-a19c-1e4ad332952e" />
+              </controlFlow>
+              <controlFlow Id="f72ad436-b7dc-488b-99c9-de771b39b2b2" guard="Активна опция &quot;влияние на расклад&quot;" isLeaf="false">
+                <decisionNodeMoniker Id="44b39437-1f62-4d00-a48b-7104a1ab0b71" LastKnownName="Decision15" />
+                <elementDefinition Id="d0102324-a39f-4813-aeea-0f1f07b36a6d" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction Id="2be73212-45f2-4114-8b2c-20d9c6c5c014" name="Ввод темы расклада" isLeaf="false">
+            <elementDefinition Id="000f2311-4e60-4581-ad60-8cf0c79363b6" />
+            <flowNodeTargets>
+              <controlFlow Id="fd5e9216-6bd2-4e43-a912-dc8d96ddcf8d" isLeaf="false">
+                <mergeNodeMoniker Id="6b8edab8-8b74-4d0f-8166-e7015aac5e5b" LastKnownName="Merge1" />
+                <elementDefinition Id="3b7d6fa8-1ae4-4ca4-9ca1-bccd222b2cd7" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="e7e74fd2-8ccd-45ec-9f94-7f93218449e9" name="Анализ движения указателя" isLeaf="false">
+            <elementDefinition Id="4d173dcf-51fb-4197-8466-bf55b024cf60" />
+            <flowNodeTargets>
+              <controlFlow Id="25e7dba6-e515-4420-b6dd-3f73e9cbcc93" isLeaf="false">
+                <mergeNodeMoniker Id="5dc4a220-7b6a-4f14-b16b-0153b9b0a98b" LastKnownName="Merge2" />
+                <elementDefinition Id="8180bb29-5230-4638-b334-e2bbf39b8db8" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <mergeNode Id="6b8edab8-8b74-4d0f-8166-e7015aac5e5b" name="Merge1" isLeaf="false">
+            <elementDefinition Id="8bf0e8e4-7ab0-488d-8f83-2a7d78e2206e" />
+            <flowNodeTargets>
+              <controlFlow Id="d7726bb8-e903-499e-a7f4-9e52a00840b9" isLeaf="false">
+                <decisionNodeMoniker Id="8cd0f42d-5229-4cfb-be59-90cb285db3a1" LastKnownName="Decision14" />
+                <elementDefinition Id="907eb6eb-ae2c-463b-a024-37c463b9ca98" />
+              </controlFlow>
+            </flowNodeTargets>
+          </mergeNode>
+          <mergeNode Id="5dc4a220-7b6a-4f14-b16b-0153b9b0a98b" name="Merge2" isLeaf="false">
+            <elementDefinition Id="d2c60e5b-a067-48a5-ab4f-75f1ad6942e1" />
+            <flowNodeTargets>
+              <controlFlow Id="0020df44-8a52-436b-a769-068264fb1475" isLeaf="false">
+                <decisionNodeMoniker Id="80dbbfb7-deb5-40db-ae34-cb501bd58f86" LastKnownName="Decision16" />
+                <elementDefinition Id="660aaf37-1ca6-4181-b67b-25bafce60b88" />
+              </controlFlow>
+            </flowNodeTargets>
+          </mergeNode>
+          <decisionNode Id="44b39437-1f62-4d00-a48b-7104a1ab0b71" name="Decision15" isLeaf="false">
+            <elementDefinition Id="badee789-a9a0-4b05-a19e-bc56a211b00e" />
+            <flowNodeTargets>
+              <controlFlow Id="d8d41cf2-4ea8-4a9c-bcdf-eb7ba4c62245" guard="Автоматический режим" isLeaf="false">
+                <opaqueActionMoniker Id="e7e74fd2-8ccd-45ec-9f94-7f93218449e9" LastKnownName="Анализ движения указателя" />
+                <elementDefinition Id="1fd436fb-a323-4a49-b641-c1e7128867b8" />
+              </controlFlow>
+              <controlFlow Id="b4c786be-b243-4169-aaf8-fc2ee11ff594" guard="Ручной режим" isLeaf="false">
+                <mergeNodeMoniker Id="5dc4a220-7b6a-4f14-b16b-0153b9b0a98b" LastKnownName="Merge2" />
+                <elementDefinition Id="9fbd7fba-f2ea-4685-b7d4-5391c55da929" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction Id="8ac28997-4785-41ea-990c-36dd4880df33" name="Выбор карты пользователем" isLeaf="false">
+            <elementDefinition Id="9d07f9df-21b6-4c2f-a2b8-7e5763e26f02" />
+            <flowNodeTargets>
+              <controlFlow Id="3953afba-8aeb-4cc1-ae8d-c6977114d293" isLeaf="false">
+                <decisionNodeMoniker Id="2a982793-2df7-484b-b14c-356509e5a7af" LastKnownName="Decision17" />
+                <elementDefinition Id="12d67949-e0ff-446c-bccd-86c90b2e5cfc" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="ab7a9819-6a57-4531-a3db-7f74c46c422c" name="Перетасовка колоды" isLeaf="false">
+            <elementDefinition Id="fff90b1c-e22f-404c-96f6-334a30d098f6" />
+            <flowNodeTargets>
+              <controlFlow Id="c844faa2-a4dd-4b54-b2cd-12cf13d3b735" isLeaf="false">
+                <opaqueActionMoniker Id="8ac28997-4785-41ea-990c-36dd4880df33" LastKnownName="Выбор карты пользователем" />
+                <elementDefinition Id="e6099c63-5a8c-4362-bbf3-4bd07794da44" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode Id="80dbbfb7-deb5-40db-ae34-cb501bd58f86" name="Decision16" isLeaf="false">
+            <elementDefinition Id="3584d209-6373-4ae7-bddf-d1b24e5a4ffd" />
+            <flowNodeTargets>
+              <controlFlow Id="f2960e82-1e71-43ab-84d0-d4304be8cc67" guard="Автоматический режим" isLeaf="false">
+                <opaqueActionMoniker Id="ab7a9819-6a57-4531-a3db-7f74c46c422c" LastKnownName="Перетасовка колоды" />
+                <elementDefinition Id="e1216cdd-1a9b-421c-8ce8-4d2a15fdc3c7" />
+              </controlFlow>
+              <controlFlow Id="0e37c68d-5aa8-43d4-bd85-e8bf44e53f78" guard="Ручной режим" isLeaf="false">
+                <opaqueActionMoniker Id="8ac28997-4785-41ea-990c-36dd4880df33" LastKnownName="Выбор карты пользователем" />
+                <elementDefinition Id="bae01f6b-31d3-4be7-a9c8-21871abf627b" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <decisionNode Id="2a982793-2df7-484b-b14c-356509e5a7af" name="Decision17" isLeaf="false">
+            <elementDefinition Id="5ec36373-10c0-4d97-98a7-dbe685e89117" />
+            <flowNodeTargets>
+              <controlFlow Id="91165676-a0b7-45ad-8031-40b31de41846" guard="Вытянутые карты &lt; размер расклада" isLeaf="false">
+                <mergeNodeMoniker Id="5dc4a220-7b6a-4f14-b16b-0153b9b0a98b" LastKnownName="Merge2" />
+                <elementDefinition Id="979e4dc4-6216-4d54-acc1-a104db1ea8b3" />
+              </controlFlow>
+              <controlFlow Id="c5a2e997-cccf-4734-adc0-ec6c6341ecba" guard="Вытянутые карты = размер расклада" isLeaf="false">
+                <opaqueActionMoniker Id="e282d0d8-0b8e-4d37-9b30-46f063326e0d" LastKnownName="Отображение результата расклада" />
+                <elementDefinition Id="a5df5392-5f90-4ead-9fde-dc61aaffa422" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction Id="e282d0d8-0b8e-4d37-9b30-46f063326e0d" name="Отображение результата расклада" isLeaf="false">
+            <elementDefinition Id="3a77fad4-6719-40f3-9561-205552d77ae7" />
+            <flowNodeTargets>
+              <controlFlow Id="4ba208b1-8fc2-4b05-823e-5e746c59512d" isLeaf="false">
+                <decisionNodeMoniker Id="1bc0e51e-d96e-4246-9fc9-fb2b831fc3b9" LastKnownName="Decision18" />
+                <elementDefinition Id="d64f0ce8-1997-4eaf-9ab5-a77886a461bc" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode Id="1bc0e51e-d96e-4246-9fc9-fb2b831fc3b9" name="Decision18" isLeaf="false">
+            <elementDefinition Id="a5d30ca2-eafe-457d-bbd9-782425e48f14" />
+            <flowNodeTargets>
+              <controlFlow Id="d12457cf-cb50-41fc-9007-9bf55305fe38" guard="Нужно оставить комментарий" isLeaf="false">
+                <opaqueActionMoniker Id="ee8eef2e-ad94-46a2-a7fa-5565f57ba570" LastKnownName="Ввод комментария к раскладу" />
+                <elementDefinition Id="5ee78b31-092a-469d-a955-27e621ef5001" />
+              </controlFlow>
+              <controlFlow Id="1c8f9595-9731-4d7a-b3bd-d75a04201eca" guard="Комментарий оставлять не нужно" isLeaf="false">
+                <opaqueActionMoniker Id="25c7eefc-0624-4b35-9bf7-051e395ccbe4" LastKnownName="Сохранение результата расклада" />
+                <elementDefinition Id="971f80ac-a68b-45ab-8c8e-be06727bc32b" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction Id="ee8eef2e-ad94-46a2-a7fa-5565f57ba570" name="Ввод комментария к раскладу" isLeaf="false">
+            <elementDefinition Id="fdf7c19e-7172-4bc6-9554-af7e6f4217d6" />
+            <flowNodeTargets>
+              <controlFlow Id="82217b9a-85c9-4222-b46f-4c3ee2c25a17" isLeaf="false">
+                <opaqueActionMoniker Id="25c7eefc-0624-4b35-9bf7-051e395ccbe4" LastKnownName="Сохранение результата расклада" />
+                <elementDefinition Id="94ac619a-a13b-42df-84e1-6339a6e72b6e" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="25c7eefc-0624-4b35-9bf7-051e395ccbe4" name="Сохранение результата расклада" isLeaf="false">
+            <elementDefinition Id="f506fd85-a08a-4206-a09a-4f265ebfc9b4" />
+            <flowNodeTargets>
+              <controlFlow Id="26702c4c-dc86-40c4-92e4-285f95bf9ffd" isLeaf="false">
+                <opaqueActionMoniker Id="19b6b933-9ecc-4a37-83cf-7617bb6583f6" LastKnownName="Вход в главное меню" />
+                <elementDefinition Id="0c8ea2ab-889d-4a99-a5ac-cf010493c53a" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode Id="c9bbcdd9-0a86-468c-94a5-7ca1ee274d18" name="Decision19" isLeaf="false">
+            <elementDefinition Id="fa04e654-23d1-433a-917f-47e114a6ff10" />
+            <flowNodeTargets>
+              <controlFlow Id="fea69cab-8da3-4e52-8fa5-e80f9ac1b9a5" guard="Нужно просмотреть предыдущие расклады" isLeaf="false">
+                <opaqueActionMoniker Id="1df7d3d8-c770-45cd-983f-a8d8f3ecb524" LastKnownName="Просмотр истории раскладов" />
+                <elementDefinition Id="6cbec28f-2943-4b0a-95b3-8fd03ef714f7" />
+              </controlFlow>
+              <controlFlow Id="83599be6-7e44-4189-945c-b7ac2824bbc9" guard="Просмотр истории раскладов не требуется" isLeaf="false">
+                <opaqueActionMoniker Id="e1f1251d-ec0e-43dc-8b3f-05d249723fbd" LastKnownName="Начало расклада" />
+                <elementDefinition Id="3946e615-e3e5-4d3d-93d8-04af279b826a" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction Id="1df7d3d8-c770-45cd-983f-a8d8f3ecb524" name="Просмотр истории раскладов" isLeaf="false">
+            <elementDefinition Id="c6545412-7449-4488-9eb8-9bc979b997e8" />
+          </opaqueAction>
+          <opaqueAction Id="4340a9e5-049c-45d4-851f-9bb0c1dba1b1" name="Закрытие программы" isLeaf="false">
+            <elementDefinition Id="83f2e6ed-8aa9-436b-8ef7-a233ed60e565" />
+            <flowNodeTargets>
+              <controlFlow Id="4ac154e2-3594-4d96-b11d-f751ed1188bd" isLeaf="false">
+                <activityFinalNodeMoniker Id="e689ee48-1c3a-4984-9731-2537304e41bd" LastKnownName="ActivityFinal1" />
+                <elementDefinition Id="40d87df1-2c39-4a76-bc0e-6273cae06cc6" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode Id="cc7bcf1c-aa7b-47a2-b317-96ebeca5bfb5" name="Decision20" isLeaf="false">
+            <elementDefinition Id="8c05edf1-c6f7-472b-b759-baa5ec1591b2" />
+            <flowNodeTargets>
+              <controlFlow Id="200159e6-5063-461d-8f4d-24b8bcc5a391" guard="Нужно продолжить работу" isLeaf="false">
+                <opaqueActionMoniker Id="df7ddbcf-d2fc-47eb-b6df-f7acbaca8e00" LastKnownName="Запуск редактора Таро" />
+                <elementDefinition Id="5fffa6e6-3c51-4dee-9550-0a3ab56d0b60" />
+              </controlFlow>
+              <controlFlow Id="fd1e2082-5289-421d-afac-99dfd529f819" guard="Работа в программе завершена" isLeaf="false">
+                <opaqueActionMoniker Id="4340a9e5-049c-45d4-851f-9bb0c1dba1b1" LastKnownName="Закрытие программы" />
+                <elementDefinition Id="befc2508-3b63-4ae6-a51f-2ee42e5eefe6" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <activityFinalNode Id="e689ee48-1c3a-4984-9731-2537304e41bd" name="ActivityFinal1" isLeaf="false">
+            <elementDefinition Id="f2c4bbd9-478c-4b29-8ced-45b7d6d3c96b" />
+          </activityFinalNode>
+          <opaqueAction Id="1e530e3c-77f5-437d-9697-5baf327e84df" name="Экспорт данных" isLeaf="false">
+            <elementDefinition Id="9d42d5ec-7214-40d2-8a2f-ebda2ea83660" />
+          </opaqueAction>
+          <decisionNode Id="2effacea-a87f-434e-b8a4-b03abb2eec43" name="Decision21" isLeaf="false">
+            <elementDefinition Id="c2494c5a-364b-483d-889d-e7b93c2a3da7" />
+            <flowNodeTargets>
+              <controlFlow Id="319337a4-39d4-4268-838a-a4a73255c902" guard="Нужно экспортировать колоды" isLeaf="false">
+                <opaqueActionMoniker Id="1e530e3c-77f5-437d-9697-5baf327e84df" LastKnownName="Экспорт данных" />
+                <elementDefinition Id="21c39fe7-3e6e-4fdc-b6c8-fa36c904b1d2" />
+              </controlFlow>
+              <controlFlow Id="c664f5aa-fc44-4fda-9a30-984e3104433a" guard="Экспорт не требуется" isLeaf="false">
+                <decisionNodeMoniker Id="72080580-ea9f-43fd-82c5-820cb0a83107" LastKnownName="Decision1" />
+                <elementDefinition Id="80050cb9-ebf6-48eb-ad5c-7cc329aaf671" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+        </nodes>
+      </activity>
+    </activityRootModelHasActivity>
+  </packagedElements>
+  <package Id="e4e3e8bc-7c54-4bb1-aa12-23aa01978b83" name="ModelingProject2">
+    <elementDefinition Id="7f795a2f-351f-472f-ad62-bab5f93ed423" />
+    <profileInstances>
+      <packageHasProfileInstances Id="38264f6e-2c74-4ee4-9ea8-397cf999f55f">
+        <profileInstance Id="5cc39286-2396-4e3e-b767-56bbbcc930c1" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="33151a26-44f1-4fa7-990c-36d11876c8da">
+        <profileInstance Id="230db4a4-5ea8-4179-95b7-3d093340fc9c" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</activityRootModel>

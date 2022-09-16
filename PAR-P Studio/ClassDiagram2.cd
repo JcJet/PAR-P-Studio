@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PAR_P_Studio.ProjectClasses.ColorTheme">
+    <Position X="7.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAQAAAAAAAAAAAAAAAAiBAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>ProjectClasses\ColorTheme.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PAR_P_Studio.Deck">
+    <Position X="2.25" Y="0.5" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="PAR_P_Studio.Deck.card">
+        <Compartments>
+          <Compartment Name="Nested Types" Collapsed="false" />
+        </Compartments>
+        <NestedTypes>
+          <Class Name="PAR_P_Studio.Deck.card.ForDrawing">
+            <TypeIdentifier>
+              <NewMemberFileName>ProjectClasses\Deck.cs</NewMemberFileName>
+            </TypeIdentifier>
+          </Class>
+        </NestedTypes>
+        <TypeIdentifier>
+          <NewMemberFileName>ProjectClasses\Deck.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AQAAAQCBAAAgAAAEAAgAAgQIAgAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProjectClasses\Deck.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PAR_P_Studio.ProjectClasses.Event">
+    <Position X="7.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAIAAAAAAAgAAAAEAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>ProjectClasses\Event.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PAR_P_Studio.User">
+    <Position X="4.75" Y="0.5" Width="2.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="PAR_P_Studio.User.LayoutMode">
+        <TypeIdentifier>
+          <NewMemberFileName>ProjectClasses\User.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Class Name="PAR_P_Studio.User.Settings">
+        <TypeIdentifier>
+          <NewMemberFileName>ProjectClasses\User.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="PAR_P_Studio.User.Statistics">
+        <Compartments>
+          <Compartment Name="Nested Types" Collapsed="false" />
+        </Compartments>
+        <NestedTypes>
+          <Class Name="PAR_P_Studio.User.Statistics.LayoutDetails">
+            <TypeIdentifier>
+              <NewMemberFileName>ProjectClasses\User.cs</NewMemberFileName>
+            </TypeIdentifier>
+          </Class>
+        </NestedTypes>
+        <TypeIdentifier>
+          <NewMemberFileName>ProjectClasses\User.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>RAAAAEAAAAgAAAAAAAQAAAAAAgAMAACCEAAQAAAAAAk=</HashCode>
+      <FileName>ProjectClasses\User.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PAR_P_Studio.Drawing">
+    <Position X="0.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAEA=</HashCode>
+      <FileName>ProjectClasses\Drawing.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PAR_P_Studio.ProjectClasses.Files">
+    <Position X="0.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAEAAAAAAAAAAAAAACAAAAACAEAg=</HashCode>
+      <FileName>ProjectClasses\Files.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PAR_P_Studio.LayoutType">
+    <Position X="7.5" Y="0.5" Width="2" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="PAR_P_Studio.LayoutType.CardPos">
+        <TypeIdentifier>
+          <NewMemberFileName>ProjectClasses\LayoutType.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>IAAAAACAAAAgAAAAAAgAAAQAAgACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProjectClasses\LayoutType.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PAR_P_Studio.Program">
+    <Position X="0.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>ProjectClasses\Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ColHeader">
+    <Position X="0.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProjectClasses\ColHeader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PAR_P_Studio.ProjectClasses.Shuffle">
+    <Position X="7.75" Y="14.25" Width="1.5" />
+    <NestedTypes>
+      <Class Name="PAR_P_Studio.ProjectClasses.Shuffle.CardPosition" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ProjectClasses\Shuffle.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAABAA=</HashCode>
+      <FileName>ProjectClasses\Shuffle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SortWrapper">
+    <Position X="2.5" Y="11.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="SortWrapper.SortComparer">
+        <TypeIdentifier>
+          <NewMemberFileName>ProjectClasses\SortWrapper.cs</NewMemberFileName>
+        </TypeIdentifier>
+        <Lollipop Position="0.2" />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgEAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>ProjectClasses\SortWrapper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PAR_P_Studio.StaticParams">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="PAR_P_Studio.StaticParams.AccessType">
+        <TypeIdentifier>
+          <NewMemberFileName>ProjectClasses\StaticParams.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AQIAgCAEAICEAEQAAAAAEAAAAkAARAAEIIAAEAAAEAA=</HashCode>
+      <FileName>ProjectClasses\StaticParams.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
